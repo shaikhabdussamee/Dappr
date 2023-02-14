@@ -1,0 +1,251 @@
+.navbar {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  left: 0px;
+  top: 0px;
+  background: #6f6af7;
+}
+.navbar .logo {
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  left: 1px;
+  top: 20px;
+  font-family: "Delius Unicase";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 61.43px;
+  line-height: 79px;
+  color: #ffffff;
+}
+.navbar .nav-items {
+  margin-left: 200px;
+  line-height: 5px;
+}
+.navbar li {
+  display: flex;
+  float: left;
+  padding: 20px;
+  color: #ffffff;
+  font-family: "DM Sans";
+  margin-left: 15px;
+}
+.navbar .more {
+  height: 5px;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+.searchBar {
+  width: 314px;
+  display: flex;
+  align-items: center;
+}
+#searchQueryInput {
+  width: 314px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 1.625rem;
+  padding: 0 3.5rem 0 1.5rem;
+  font-size: 1rem;
+}
+
+#searchQuerySubmit {
+  width: 3.5rem;
+  height: 2.8rem;
+  margin-left: -3.5rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+#searchQuerySubmit:hover {
+  cursor: pointer;
+}
+/* Hamburger Menu */
+.navbar .hamburger {
+  position: absolute;
+  width: 47px;
+  left: 92%;
+  right: 3.07%;
+  top: 27%;
+  background: #ffffff;
+}
+
+/* Header Container images start */
+.leftheader img {
+  position: absolute;
+  width: 456px;
+  height: 300px;
+  left: 5px;
+  top: 125px;
+  border-radius: 20px;
+}
+.rightheader {
+  position: absolute;
+  width: 750px;
+  height: 300px;
+  left: 400px;
+  top: 120px;
+  background: #e5d8ff;
+  border: 6px solid #ffffff;
+  box-shadow: inset 3px 5px 27px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.rightheader p {
+  position: absolute;
+  width: 800px;
+  left: 15px;
+  top: 1px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-size: 25px;
+  color: #6f7373;
+}
+.social {
+  position: sticky;
+  top: 1px;
+  margin-top: 25vh;
+  float: right;
+}
+
+.social img {
+  height: 40px;
+  display: block;
+  width: fit-content;
+}
+/* cards */
+.card-container {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.card {
+  width: 21%;
+  margin-top: 80vh;
+  padding: 10px 15px;
+  box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+  border-radius: 11px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.card-1 {
+  background: #929dff;
+}
+.card-2 {
+  background: #734cf2;
+}
+.card-3 {
+  background: #d288ff;
+}
+.card-4 {
+  background: #000000;
+}
+
+.container {
+  display: flex;
+  background-color: #483eff;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+  border-radius: 21px;
+  height: 60vh;
+  margin-bottom: 10vh;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.left-container button {
+  padding: 15px 35px;
+  background-color: transparent;
+  border-color: white;
+  border-radius: 12px;
+  color: white;
+  font-weight: 700;
+  border-style: solid;
+}
+
+.left-container button:first-of-type {
+  background: #bce0f6;
+  color: black;
+  box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.39);
+}
+.right-container {
+  box-sizing: border-box;
+  width: 70%;
+  height: 90%;
+  background-color: white;
+  margin: 2% 0 2% 0;
+  border-radius: 20px;
+  padding: 20px 30px;
+  position: relative;
+}
+
+.info-heading {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.105em;
+  color: #04285a;
+}
+
+.info {
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.105em;
+  color: #04285a;
+}
+
+.info span {
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.105em;
+  color: #04285a;
+}
+
+.next-button {
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  padding: 10px 20px;
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 6px;
+  position: absolute;
+  right: 10px;
+  bottom: 30px;
+}
+
+.next-button img {
+  width: 20px;
+  margin-left: 7px;
+}
+.help {
+  background-color: white;
+  border-radius: 100%;
+  position: fixed;
+  right: 60px;
+  bottom: 20px;
+  box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+  padding: 7px;
+  width: 50px;
+  height: 50px;
+}
+
+.help img {
+  width: 50px;
+  height: 50px;
+}
